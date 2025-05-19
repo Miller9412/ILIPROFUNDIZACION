@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Programa de Ingeniería de Software de la Universidad de Compensar">
+    <meta name="keywords" content="ingeniería, software, universidad, compensar, educación">
+    <title>Ingeniería de Software - UCompensar</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/Logo.PNG" alt="Logo UCompensar">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Programas</a></li>
+                <li><a href="#">Admisiones</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Estudiantes</a></li>
+                <li><a href="#">Internacionalización</a></li>
+                <li><a href="#">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="presencial-container">
+        <section class="presencial">
+            <div class="presencial-texto">
+                <h1>Ingeniería de Software</h1>
+                <p>Modalidad presencial</p>
+                <button class="btn-inscribete">Inscríbete aquí</button>
+            </div>
+            <div class="presencial-imagen">
+                <img src="img/presencial.jpg" alt="Modalidad presencial">
+            </div>
+        </section>
+    </div>
+
+    <section class="formulario-section">
+        <h2>¿Quieres más información?</h2>
+        <form class="formulario">
+            <div class="form-group">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="programa">Programa de interés</label>
+                <select id="programa" name="programa">
+                    <option value="software">Ingeniería de Software</option>
+                    <option value="sistemas">Ingeniería de Sistemas</option>
+                    <option value="industrial">Ingeniería Industrial</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-enviar">Enviar información</button>
+        </form>
+    </section>
+
+    <div class="info-programa">
+        <section class="hero-section">
+            <img src="img/Hero-image.jpg" alt="Estudiantes de Ingeniería de Software">
+            <div class="info-box">
+                <h2>Ingeniería de Software</h2>
+                <p><strong>Modalidad:</strong> Presencial</p>
+                <p><strong>Duración:</strong> 8 semestres</p>
+                <p><strong>SNIES:</strong> 108013</p>
+                <p><strong>Título:</strong> Ingeniero de Software</p>
+                <p>El programa de Ingeniería de Software forma profesionales capaces de desarrollar soluciones tecnológicas innovadoras con altos estándares de calidad, respondiendo a las necesidades del entorno empresarial y la transformación digital.</p>
+                <button class="btn-mas-info">Más información</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Universidad de Compensar - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
